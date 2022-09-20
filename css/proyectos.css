@@ -1,0 +1,72 @@
+.proyectos {
+    background: rgb(179, 229, 252);
+    background: linear-gradient(180deg, rgba(179, 229, 252) 11%, rgba(171,136,199,1) 60%, rgba(145,184,193,1) 100%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.proyectos__project img {
+    width: 80%;
+}
+
+.proyectos__project {
+    width: 80%;
+    text-align: center;
+    border-bottom: white 8px groove;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.proyectos__project-titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: .2rem;
+}
+
+.proyectos__project-realizado {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: .3rem;
+}
+
+.proyectos__botones {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.proyectos__botones a {
+
+    padding: .6rem 1rem;
+    border: 1px solid #995309;
+    border-radius: 4px;
+    background-color: #d9750b;
+
+
+    font-size: 1rem;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset,
+        0 1px 3px rgba(0, 0, 0, .2);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #f90), to(#e76a00));
+    background-image: linear-gradient(#f90 10%, #e76a00 100%);
+
+}
+
+@media screen and (min-width: 860px) {
+    .proyectos__project {
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .ahorcado {
+        flex-direction: row-reverse;
+    }
+}

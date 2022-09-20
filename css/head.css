@@ -1,0 +1,105 @@
+header {
+     background: rgb(171,136,199,0.81);
+    background: linear-gradient(180deg, rgba(171,136,199,0.81) 60%, rgba(171,136,199,1) 60%, rgba(145,184,193,1) 100%);
+ 
+    font-weight: 500;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto auto;
+    height: 25px;
+    background-color: #8F3A8566;
+    padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+.head__logo {
+    font-family: 'Babylonica', cursive;
+    color: #ffffff;
+    font-size: 1.75rem;
+    position: inherit;
+    margin-top: 0.7rem;
+    margin-left: 0.3rem;
+    position: absolute;
+    transform: rotate(-16deg);
+}
+
+.head__navegacion {
+    text-align: right;
+}
+
+
+.head__enlace  li:nth-child(1n) {
+    display: none;
+}
+
+.head__enlace  li:last-child {
+    display: block;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 860px) {
+
+    .head__enlace  li:nth-child(1n) {
+        display: block;
+    }
+
+    .head__enlace {
+        display: flex;
+        justify-content: end;
+        gap: 1rem;
+    }
+
+    .head__enlace-link:hover {
+        border-bottom: 1px solid #000000;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        height: 50px;
+    }
+
+    .head__forma-base {
+        border-top: 120px solid #0a3871;
+        border-right: 400px solid transparent;
+    }
+
+    .head__logo {
+        font-size: 2.5rem;
+        transform: rotate(-17deg);
+        margin-top: 1.2rem;
+        margin-left: 0rem;
+    }
+
+    .head__enlace {
+        gap: 1.5rem;
+        font-size: 1.25rem;
+        padding-top: 7px;
+    }
+
+    .head__enlace-link:hover {
+        border-bottom: 1px solid #000000;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .head__forma-base {
+        border-top: 160px solid #0a3871;
+        border-right: 600px solid transparent;
+    }
+
+    .head__logo {
+        font-size: 3.2rem;
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+        position: absolute;
+        transform: rotate(-15deg);
+    }
+}

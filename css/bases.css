@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #FFCDD2;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFCDD2;
+}
+
+strong {
+    font-weight: bolder;
+}
