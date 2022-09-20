@@ -12,7 +12,7 @@
 .presentacion__foto-redes {
     display: flex;
     flex-direction: column;
-    max-width: 250px;
+    max-width: 500px;
 
 }
 
